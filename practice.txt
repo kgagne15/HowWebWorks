@@ -1,0 +1,47 @@
+USED MDN DOCS TO HELP SOLIDIFY CONTENT/ANSWERS ARE IN PARENTHESES 
+
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+
+1. What is HTTP?
+
+HTTP is a protocol for getting resources from other computers on the internet  (or send data to a server)
+
+2. What is a URL?
+
+A URL is text used to locate a specific resource  (it's an address)
+
+3. What is DNS?
+
+DNS is the process where users can enter a hostname and the correct IP address will be found  (it's a system not a process)
+
+4. What is a query string?
+
+A query string is additional text added to a URL to help pinpoint a different resource based on the query entry  (these are key value pairs)
+
+5. What are two HTTP verbs and how are they different?
+
+GET - requesting information from the server
+POST - modifying information on the server
+
+6. What is an HTTP request?
+
+A request to a (client) server for particular resources
+
+7. What is an HTTP response? 
+
+The response from a request  (response from a server to a client)
+
+8. What is an HTTP header?
+
+???  (headers provide additional information about the request or response [Host, User-Agent, Accept, Cookie])
+
+9. What are the processes that happen when you type "https://somesite.com/some/page.html" into a browser?
+
+??? 
+
+(name is "resolved" to an IP address using DNS
+request is made to that IP address
+server sends a response
+browser makes DOM from response HTML
+browser makes separate HTTP requests from resources linked in HTML)
